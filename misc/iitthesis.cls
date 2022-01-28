@@ -371,6 +371,8 @@
       % easily navigate to the bibliography
       \pdfbookmark[0]{Bibliography}{bib}%
     \fi
+    \addcontentsline{toc}{chapter}{Bibliography}%
+    \addcontentsline{cot}{chapter}{ביבליוגרפיה}
     \bibliographystyle{\iitthesis@thesisbibstyle}%
     \bibliography{\iitthesis@thesisbibfiles}%
   \fi%
